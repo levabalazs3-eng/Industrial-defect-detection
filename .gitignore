@@ -1,0 +1,15 @@
+dataset/
+*_result.png
+*.pth
+*.pt
+*.weights
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+.env
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
