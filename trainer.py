@@ -122,7 +122,7 @@ class Trainer:
 
     return res, loss
 
-def _debug_plot(self, img, lbl, classes):
+  def _debug_plot(self, img, lbl, classes):
 
     img_cpu = img.detach().to("cpu")
     grid = torchvision.utils.make_grid(img_cpu, nrow=8)

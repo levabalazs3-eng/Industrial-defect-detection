@@ -37,7 +37,7 @@ def main():
         if len(defective_imgs) == num_images:
             break
 
-    fig, axes = plt.subplots(rows, cols, figsize=(20, 5 * rows))
+    _, axes = plt.subplots(rows, cols, figsize=(20, 5 * rows))
     axes = axes.flatten()
 
     for i in range(num_images):

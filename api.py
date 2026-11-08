@@ -7,9 +7,7 @@ from fastapi import FastAPI, UploadFile, File
 from torchvision import transforms
 from model import CustomDefectCNN
 
-app = FastAPI(
-    title = "Industrial Defect Detection API"
-)
+app = FastAPI(title = "Industrial Defect Detection API")
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 model = CustomDefectCNN().to(device)

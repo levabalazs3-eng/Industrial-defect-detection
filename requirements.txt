@@ -6,3 +6,8 @@ matplotlib
 tqdm
 kagglehub
 torchsummary
+grad-cam
+opencv-python
+fastapi
+uvicorn
+python-multipart
